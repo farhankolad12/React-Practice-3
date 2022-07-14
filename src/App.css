@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+}
+
+tr,
+td,
+th {
+  text-align: center;
+  border: 1px solid red;
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+li {
+  height: 100%;
+  padding: 0.5rem 1rem;
+}
+
+li.active {
+  background-color: #000;
+}
+
+li:hover {
+  background-color: darkblue;
+}
